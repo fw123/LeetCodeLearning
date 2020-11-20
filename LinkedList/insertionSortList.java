@@ -1,4 +1,4 @@
-/**
+package LinkedList; /**
  * 147. 对链表进行插入排序
  */
 
