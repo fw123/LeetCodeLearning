@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class FindMinArrowShots {
 
     public static void main(String[] args) {
-        int[][] points = new int[][]{{-2147483646,-2147483645},{2147483646,2147483647}};
+        int[][] points = new int[][]{{-2147483646,-2147483645},{2147483646,2147483647}};//阴险的输入
         System.out.println(findMinArrowShots(points));
     }
 
