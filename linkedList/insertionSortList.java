@@ -1,6 +1,10 @@
-package LinkedList; /**
+package linkedList; /**
  * 147. 对链表进行插入排序
  */
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Definition for singly-linked list.
@@ -10,6 +14,11 @@ package LinkedList; /**
  *     ListNode(int x) { val = x; }
  * }
  */
+  class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) { val = x; }
+ }
 
 class Solution {
     
